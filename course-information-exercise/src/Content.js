@@ -17,30 +17,30 @@ import Part from './Part'
 // export default Content
 
 // step 3
-const part1 = {
-    name: "Fundamentals of React",
-    exercises: 10
-  };
-  const part2 = {
-    name: "Using props to pass data",
-    exercises: 7
-  };
-  const part3 = {
-    name: "State of a component",
-    exercises: 14
-  };
+// const part1 = {
+//     name: "Fundamentals of React",
+//     exercises: 10
+//   };
+//   const part2 = {
+//     name: "Using props to pass data",
+//     exercises: 7
+//   };
+//   const part3 = {
+//     name: "State of a component",
+//     exercises: 14
+//   };
   
-  const Content = (props) => {
-    return (
-      <Part
-        part1={part1.name}
-        part2={part2.name}
-        part3={part3.name}
-        exercise1={part1.exercises}
-        exercise2={part2.exercises}
-        exercise3={part3.exercises}
-      />
-    );
-  };
+//   const Content = (props) => {
+//     return (
+//       <Part
+//         part1={part1.name}
+//         part2={part2.name}
+//         part3={part3.name}
+//         exercise1={part1.exercises}
+//         exercise2={part2.exercises}
+//         exercise3={part3.exercises}
+//       />
+//     );
+//   };
   
-  export default Content;
+//   export default Content;
